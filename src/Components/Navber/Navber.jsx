@@ -13,12 +13,11 @@ const Navber = () => {
     ];
 
     return (
-        <nav className='bg-purple-400 p-5 rounded m-2'>
+        <nav className='bg-purple-400 mx-4 p-5 rounded m-2'>
             <div onClick={() => setOpen(!open)} className='md:hidden'>
                 <span>{open === true ?
                     <XMarkIcon className="h-6 w-6 text-purple-500" /> :
                     <Bars3Icon className="h-6 w-6 text-purple-500" />}</span>
-
 
             </div>
             <ul className={`md:flex absolute md:static duration-500 bg-purple-400 pl-8 pb-4 

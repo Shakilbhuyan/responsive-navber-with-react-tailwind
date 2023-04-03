@@ -1,0 +1,36 @@
+[
+    {
+      "id": 1,
+      "name": "Starter Membership",
+      "price": 30,
+      "features": [
+        "24/7 gym access",
+        "Group fitness classes",
+        "1 personal training session"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Standard Membership",
+      "price": 50,
+      "features": [
+        "24/7 gym access",
+        "Group fitness classes",
+        "4 personal training sessions",
+        "Access to sauna"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Premium Membership",
+      "price": 80,
+      "features": [
+        "24/7 gym access",
+        "Unlimited group fitness classes",
+        "8 personal training sessions",
+        "Access to sauna and steam room",
+        "Complimentary towel service"
+      ]
+    }
+  ]
+  
