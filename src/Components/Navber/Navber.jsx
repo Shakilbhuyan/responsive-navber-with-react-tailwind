@@ -13,7 +13,7 @@ const Navber = () => {
     ];
 
     return (
-        <nav>
+        <nav className='bg-purple-400 p-5 rounded m-2'>
             <div onClick={() => setOpen(!open)} className='md:hidden'>
                 <span>{open === true ?
                     <XMarkIcon className="h-6 w-6 text-purple-500" /> :
@@ -21,7 +21,8 @@ const Navber = () => {
 
 
             </div>
-            <ul className='md:flex'>
+            <ul className={`md:flex absolute md:static duration-500 bg-purple-400 pl-8 pb-4 
+            ${open ? 'top-10' : '-top-80'}`}>
                 {
                     routes.map(route => <Link key={route.id} route={route}></Link>)
                 }
